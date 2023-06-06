@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/score_card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:backgroundTint="#BC03A9F4"
+    >
+
+    <LinearLayout
+        android:layout_width="375dp"
+        android:layout_height="278dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/score_title_text_view"
+            android:layout_width="349dp"
+            android:layout_height="59dp"
+            android:layout_gravity="center"
+            android:text="GAME OVER"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score_text_view2"
+            android:layout_width="350dp"
+            android:layout_height="62dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#FFEB3B"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score_text_view3"
+            android:layout_width="349dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#9C27B0"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:layout_width="363dp"
+            android:layout_height="65dp"
+            android:text="PLAY AGAIN"
+            android:id="@+id/playAgain"/>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
