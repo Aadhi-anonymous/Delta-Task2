@@ -13,7 +13,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.google.android.material.color.utilities.Score.score
-
+const val BASEURL= "https://api-obstacle-dodge.vercel.app/ "
 
 class MainActivity : AppCompatActivity() {
 

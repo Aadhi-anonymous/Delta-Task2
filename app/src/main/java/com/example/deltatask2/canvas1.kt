@@ -10,7 +10,7 @@ import kotlin.math.roundToInt
 class canvas1(context: Context?,val dialog:()->Unit) : View(context) {
 
     private lateinit var rect: Rect
-    private lateinit var paint: Paint
+    private var paint: Paint
     private var circleX = 400f
     private var circleY = 800f
     private var velocity = 0f
@@ -27,6 +27,7 @@ class canvas1(context: Context?,val dialog:()->Unit) : View(context) {
     private var highScore = 0
     private var isJumping = false
     private var isJumpingAllowed = true
+
 
 
 
